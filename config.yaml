@@ -6,7 +6,7 @@ proxy:
   secretToken: "<RANDOM_HEX>"
 singleuser:
   image:
-    name: dkharazi
+    name: anfpy
     tag: latest
   lifecycleHooks:
     postStart:
