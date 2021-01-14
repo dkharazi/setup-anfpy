@@ -11,7 +11,7 @@ singleuser:
   lifecycleHooks:
     postStart:
       exec:
-        command: ["sh","-c","rm -f ./anfpy/setup.sh"]
+        command: ["sh","-c","rm -f setup.sh"]
 prePuller:
   hook:
     enabled: false
