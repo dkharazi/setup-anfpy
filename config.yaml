@@ -1,0 +1,19 @@
+# Configure basic settings for JupyterHub
+# https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-jupyterhub.html
+# https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
+# https://zero-to-jupyterhub.readthedocs.io/en/latest/optimization.html
+proxy:
+  secretToken: "<RANDOM_HEX>"
+singleuser:
+  image:
+    name: dkharazi
+    tag: latest
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: ["sh","-c","rm -rf setup.sh"]
+prePuller:
+  hook:
+    enabled: false
+  continuous:
+    enabled: true
