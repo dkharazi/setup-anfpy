@@ -17,7 +17,7 @@
 
 ## Connecting to Cluster using Cloud Shell
 
-1. Connect to cluster:
+1. Connect to the cluster:
 
 ```sh
 $ gcloud container clusters get-credentials anf-py --zone us-central1-c --project my-project-1569441454154
@@ -26,5 +26,5 @@ $ gcloud container clusters get-credentials anf-py --zone us-central1-c --projec
 2. Clone the *anfpy* repo for setup:
 
 ```sh
-$ git clone https://github.com/dkharaz/anfpy
+$ git clone https://github.com/dkharazi/anfpy.git
 ```
