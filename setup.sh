@@ -1,6 +1,5 @@
 # Download & Set Up Helm
 # https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-helm.html
-
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
 kubectl --namespace kube-system create serviceaccount tiller
 kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
@@ -10,7 +9,6 @@ kubectl patch deployment tiller-deploy --namespace=kube-system --type=json --pat
 
 # Set Up JupyterHub
 # https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-jupyterhub.html
-
 sed -i 's/<RANDOM_HEX>/'"$( openssl rand -hex 32 )"'/g' config.yaml  # add security token to config.yaml
 helm repo add jupyterhub https://jupyterhub.github.io/helm-chart/
 helm repo update
