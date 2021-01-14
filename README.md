@@ -11,4 +11,6 @@
 3. Nodes:
   - `Boot Disk Type:` SSD
 4. Node Metadata:
-  - `Kubernetes Labels:` **Key:** hub.jupyter.org/node-purpose; **Value:** core
+  - `Kubernetes Labels:`
+    - **Key:** hub.jupyter.org/node-purpose
+    - **Value:** core
