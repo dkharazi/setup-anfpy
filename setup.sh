@@ -19,3 +19,6 @@ helm repo add jupyterhub https://jupyterhub.github.io/helm-chart/
 helm repo update
 helm upgrade --cleanup-on-fail --install jhub jupyterhub/jupyterhub --namespace jhub --create-namespace --version=0.10.6 --values config.yaml
 # helm upgrade --install jhub jupyterhub/jupyterhub --namespace jhub --version 0.8.2 --values config.yaml
+
+# Find external IP address of JupyterHub
+kubectl get service --namespace jhub
