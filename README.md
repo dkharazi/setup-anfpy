@@ -23,14 +23,14 @@
 $ gcloud container clusters get-credentials anf-py --zone us-central1-c --project my-project-1569441454154
 ```
 
-2. Clone the *anfpy* repo for setup:
+2. Clone the *setup-anfpy* repo for setup:
 
 ```sh
-$ git clone https://github.com/dkharazi/anfpy.git .
+$ git clone https://github.com/dkharazi/setup-anfpy.git
 ```
 
 3. Upload notebooks to the cluster:
 
 ```sh
-$ bash setup.sh
+$ bash ./setup-anfpy/setup.sh
 ```
