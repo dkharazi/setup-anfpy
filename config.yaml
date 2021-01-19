@@ -8,10 +8,6 @@ singleuser:
   image:
     name: anfpy
     tag: latest
-  lifecycleHooks:
-    postStart:
-      exec:
-        command: ["sh","-c","rm -f setup.sh"]
 prePuller:
   hook:
     enabled: false
