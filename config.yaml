@@ -6,7 +6,7 @@ proxy:
   secretToken: "<RANDOM_HEX>"
 singleuser:
   image:
-    name: anfpy
+    name: dkharazi/anfpy
     tag: 1.0.0
 imagePullPolicy: Never
 prePuller:
