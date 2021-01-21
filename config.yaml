@@ -8,8 +8,3 @@ singleuser:
   image:
     name: dkharazi/anf-docker
     tag: latest
-prePuller:
-  hook:
-    enabled: false
-  continuous:
-    enabled: true
