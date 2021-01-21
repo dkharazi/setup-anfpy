@@ -8,3 +8,12 @@ singleuser:
   image:
     name: dkharazi/anf-docker
     tag: latest
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: ["sh","-c","rm -rf anfpy && git clone https://github.com/dkharazi/anfpy.git"]
+prePuller:
+  hook:
+    enabled: false
+  continuous:
+    enabled: true
