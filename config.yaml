@@ -7,8 +7,7 @@ proxy:
 singleuser:
   image:
     name: dkharazi/anfpy
-    tag: 1.0.0
-imagePullPolicy: Never
+    tag: 2.0.0
 prePuller:
   hook:
     enabled: false
