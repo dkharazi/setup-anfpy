@@ -6,8 +6,8 @@ proxy:
   secretToken: "<RANDOM_HEX>"
 singleuser:
   image:
-    name: dkharazi/anf-py
-    tag: 1.0.0
+    name: dkharazi/anf-docker
+    tag: latest
 prePuller:
   hook:
     enabled: false
