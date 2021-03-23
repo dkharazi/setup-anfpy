@@ -34,3 +34,13 @@ $ git clone https://github.com/dkharazi/setup-anfpy.git
 ```sh
 $ bash ./setup-anfpy/setup.sh
 ```
+
+```python
+from pandas import pd
+
+class HelloWorld:
+  pass
+
+def func():
+  return 1
+```
