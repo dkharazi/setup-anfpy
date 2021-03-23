@@ -42,6 +42,7 @@ class HelloWorld:
   pass
 
 def func():
+  print('hello world')
   num = 2
   return num == 5
 ```
