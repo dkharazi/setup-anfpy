@@ -42,5 +42,6 @@ class HelloWorld:
   pass
 
 def func():
-  return 1
+  num = 2
+  return num == 5
 ```
