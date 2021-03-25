@@ -44,5 +44,6 @@ class HelloWorld:
 def func():
   print('hello world')
   num = 2
+  bool = True
   return num == 5
 ```
