@@ -45,5 +45,7 @@ def func():
   print('hello world')
   num = 2
   bool = True
+  while bool:
+    return 'bye'
   return num == 5
 ```
