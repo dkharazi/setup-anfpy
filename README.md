@@ -41,6 +41,7 @@ from pandas import pd
 class HelloWorld:
   pass
 
+# This is a function
 def func():
   print('hello world')
   num = 2
