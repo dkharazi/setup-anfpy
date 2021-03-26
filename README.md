@@ -38,7 +38,7 @@ $ bash ./setup-anfpy/setup.sh
 ```python
 from pandas import pd
 
-@staticmethod
+@app.route('/')
 class HelloWorld:
   pass
 
