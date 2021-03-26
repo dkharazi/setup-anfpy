@@ -48,6 +48,6 @@ def func():
   num = 2
   bool = True
   while bool:
-    return 'bye'
+    print(__name__)
   return num == 5
 ```
