@@ -38,6 +38,7 @@ $ bash ./setup-anfpy/setup.sh
 ```python
 from pandas import pd
 
+@staticmethod
 class HelloWorld:
   pass
 
