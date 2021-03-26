@@ -35,19 +35,16 @@ $ git clone https://github.com/dkharazi/setup-anfpy.git
 $ bash ./setup-anfpy/setup.sh
 ```
 
-```python
-from pandas import pd
-
-@app.route('/')
-class HelloWorld:
-  pass
-
-# This is a function
-def func():
-  print('hello world')
-  num = 2
-  bool = True
-  while bool:
-    print(__name__)
-  return num == 5
+```js
+// App.js
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Counter />
+        <Counter />
+      </div>
+    );
+  }
+}
 ```
