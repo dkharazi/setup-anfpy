@@ -52,4 +52,5 @@ class App extends Component {
 ```python
 def hello():
   print('hello' + 'world')
+  print(True)
 ```
