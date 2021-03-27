@@ -37,14 +37,19 @@ $ bash ./setup-anfpy/setup.sh
 
 ```js
 // App.js
-class App extends Component {
+class ClassClick extends Component {
+  clickHandler() {
+    console.log('Button clicked');
+  }
+  
   render() {
     return (
-      <div className="App">
-        <Counter />
-        <Counter />
+      <div>
+        <button onClick={this.clickHandler}>
+          Click
+        </button>
       </div>
-    );
+    )
   }
 }
 ```
