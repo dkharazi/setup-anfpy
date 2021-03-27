@@ -50,6 +50,7 @@ class App extends Component {
 ```
 
 ```python
+@app.rout('/')
 def hello():
   print('hello' + 'world')
   print(True)
