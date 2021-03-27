@@ -53,4 +53,5 @@ class App extends Component {
 def hello():
   print('hello' + 'world')
   print(True)
+  print(50)
 ```
